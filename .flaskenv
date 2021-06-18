@@ -1,2 +1,2 @@
-FLASK_APP = foodtracker
-FLASK_ENV = development
+FLASK_APP=foodtracker
+FLASK_ENV=development
