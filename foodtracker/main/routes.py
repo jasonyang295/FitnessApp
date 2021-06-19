@@ -27,8 +27,8 @@ def add_post():
         carbs =carbs, 
         fats=fats)
 
-    # db.session.add(new_food)
-    # db.session.commit()
+    db.session.add(new_food)
+    db.session.commit()
 
     return f'<h1>{ food_name } - { proteins} - { carbs } - { fats }<h1/>'
 
